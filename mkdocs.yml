@@ -1,1 +1,9 @@
 site_name: Документация к боту AFL-Ассистент
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
