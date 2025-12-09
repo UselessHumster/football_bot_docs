@@ -18,11 +18,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs
-          pip install mkdocs-material
+          make install-uv
+          make create-venv
 
       - name: Build docs
-        run: mkdocs build --strict
+        run: make build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
