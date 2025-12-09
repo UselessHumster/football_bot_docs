@@ -1,0 +1,1 @@
+[![Deploy MkDocs to GitHub Pages](https://github.com/UselessHumster/football_bot_docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/UselessHumster/football_bot_docs/actions/workflows/deploy.yml)
