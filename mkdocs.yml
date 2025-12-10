@@ -1,9 +1,23 @@
 site_name: Документация к боту AFL-Ассистент
 theme:
   name: material
+  language: ru
   features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.sections
-    - content.code.copy
-    - content.code.annotate
+    - navigation.tabs       # верхние вкладки
+    - navigation.sections   # боковое меню для выбранной вкладки
+    - navigation.top        # "вверх" в шапке
+    - navigation.footer     # кнопки "предыдущая/следующая" внизу страниц
+
+nav:
+  - Добро пожаловать: index.md
+
+  - Пользователю (Мини):
+      - Пользователю (Мини): 1_users_mini.md
+      - Регистрация: users_mini/1_registration.md
+      - Главное меню: users_mini/2_main_menu.md
+      - Профиль пользователя: users_mini/3_user_profile.md
+      - Оценить судью: users_mini/4_rate_referee.md
+
+  - Администратору клуба:
+      - Администратору клуба: 2_club_admins.md
+      - Быстрый старт: club_admins/1_start.md
