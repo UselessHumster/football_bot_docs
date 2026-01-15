@@ -54,11 +54,6 @@
 
 ![img_11.png](assets/chat_confirm_bot_as_admin.png)
 
-## Получения ID чата
-Запустите команду `/chat@ReddysAdmin_bot`
 
-Бот даст понять реакцией, что команда сработала успешно
-
-![img_14.png](assets/chat_command.png)
-
+## Завершение
 Напишите администрации, что все шаги сделаны
